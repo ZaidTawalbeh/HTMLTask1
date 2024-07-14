@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Payment Form</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+           <div>
+               <img src="./image/LOGO.jpg" alt="LOGO" width="130" >
+               <Span>Creative Hands</Span>
+           </div>
+           <nav>
+               <ul class="nav">
+                   <li><a href="./index.html">Home</a></li>
+                   <li><a href="#">Products</a></li>
+                   <li><a href="./bay.html">Company</a></li>
+                   <li><a href="./index.html">More</a></li>
+               </ul>
+           </nav>
+           <input id="search" type="search" placeholder="search">
+        </div>
+     </header>
+    <div class="container">
+        <h2>Payment Form</h2>
+        <form action="./index.html" method="post">
+            <div class="form-group">
+                <label for="name">Name on Card</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="card-number">Card Number</label>
+                <input type="text" id="card-number" name="card_number" required>
+            </div>
+            <div class="form-group">
+                <label for="exp-month">Expiry Month</label>
+                <input type="text" id="exp-month" name="exp_month" required>
+            </div>
+            <div class="form-group">
+                <label for="exp-year">Expiry Year</label>
+                <input type="text" id="exp-year" name="exp_year" required>
+            </div>
+            <div class="form-group">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" required>
+            </div>
+            <button type="submit">Pay Now</button>
+        </form>
+    </div>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Company</a></li>
+                <li><a href="#">More</a></li>
+            </ul>
+        </nav>
+        <div class="footer">
+            <p>&copy; 2024 Creative Hands. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
