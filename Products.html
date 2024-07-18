@@ -27,7 +27,7 @@
      <main>
         <div class="container">
             <h2>Add New Product</h2>
-            <form action="./index.html" method="POST">
+            <form action="./index.html" method="POST" id="T-form">
                 <label for="productName">Product Name:</label>
                 <input type="text" id="productName" name="productName" required class="input">
                 
@@ -40,6 +40,20 @@
                 <button type="submit">Add Product</button>
             </form>
         </div>
+        <div>
+            <table class="table" border="1" id="tab">
+                <thead>
+                  <tr>
+                    <th scope="col">Product Name</th>
+                    <th scope="col">Product Price</th>
+                    <th scope="col">Product Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+
+                </tbody>                
+            </table>
+        </div>
      </main>
      <footer>
         <nav>
@@ -50,9 +64,11 @@
                 <li><a href="./Contact-us.html">Contact Us</a></li>
             </ul>
         </nav>
+        <hr>
         <div class="footer">
             <p>&copy; 2024 Creative Hands. All rights reserved.</p>
         </div>
     </footer>
+    <script href="./js/app.js"></script>
 </body>
 </html>
