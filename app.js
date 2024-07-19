@@ -19,5 +19,6 @@ form.addEventListener("submit",(e)=>{
     pNameCell.textContent = product ;
     pPriceCell.textContent = price;
     pDescrCell.textContent = description;
+    form.reset();
 
  });
